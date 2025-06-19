@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/analogist');
+body{
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 39%, rgba(148, 187, 233, 1) 70%);
+}
+fieldset{
+    border-width: 3px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+form {
+    width: 700px;
+    margin:0px auto;
+}
+h1{
+    font-family:'Analogist', sans-serif; 
+    text-align: center;
+}
+input[required]{
+    border: 3px solid red;
+    border-radius: 15px;
+}
+input[optional]{
+    border:3px solid darkgreen;
+    border-radius: 15px;
+}
+input:focus{
+    background-color: cornflowerblue;
+}
+#abc{
+    display: none;
+}
+input:hover +span {
+    display: inline !important;
+    background-color: aliceblue;
+}
+textarea{
+    width: 500px;
+    resize: none;
+}

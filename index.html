@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Course Registration form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal details</legend>
+            <table>
+            <tr>
+                <td><label >Name </label></td>
+                <td><input type="text" placeholder="Ex:Jack" required /> 
+                <span id="abc">enter your Name</span>
+            </td>
+                
+            </tr>
+            <tr>
+                <td> <label>Surname</label></td>
+                <td> <input type="text" placeholder="Surname" optional/>
+                <span id="abc">enter your Surname</span></td>
+            </tr>
+            <tr>
+                <td><label>phone number</label></td>
+                <td><input type="tel" placeholder="9816257253" required/>
+                <span id="abc">enter your phone number</span></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" placeholder="jack@gmail.com" required/>
+                 <span id="abc">enter your email:</span></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td> <input type="password" placeholder="password" required/>
+                <span id="abc">enter your password:</span></td>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Confirm Password </label></td>
+                <td> <input type="password" placeholder="confirm password" required/>
+                <span id="abc">enter your confirm password:</span></td></td>
+            </tr>
+            <tr>
+                <td><label>DOB</label></td>
+                <td> <input type="date" required/>
+                <span id="abc">enter your DOB</span></td>
+            </tr>
+            <tr>
+       
+                <td> <label>Gender</label></td>
+                <td><input type="radio"/>Male
+                    <input type="radio"/>Female
+                    <input type="radio"/>Others
+                <span id="abc">select your Gender</span></td>
+            </tr>
+            <tr>
+                <td><label>Select Country</label></td>
+                <td><select>
+            <option>India</option>
+            <option>USA</option>
+            <option>Japan</option>
+            <option>UK</option>
+            </select>
+        <span id="abc">select your Country</span></td>
+            </tr>
+            <tr>
+                <td><label>upload Picture</label></td>
+                <td> <input type="file"/></td>
+            </tr>
+            <tr>
+                <td><input type="reset" /><br></td>
+            </tr>
+            </table>
+        </fieldset>
+           <fieldset>
+            <legend>Course details</legend>
+             <table >
+            <tr>
+                <td><label>Select course</label><br></td>
+                <td><select>
+            <option>Java</option>
+            <option>Python</option>
+            <option>Database</option>
+            </select><span id="abc">select your course</span></td>
+            </tr>
+             <tr>
+                <td><label>Delivery Mode</label></td>
+                <td><input type="checkbox"/>Online
+            <input type="checkbox"/>Offline<br></td>
+            </tr>
+            <tr>
+                <td><label>Comments</label><br></td>
+                <td><textarea rows="5" cols="40"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"/></td>
+            </tr>
+            </table>
+           </fieldset>
+    </form>
+</body>
+</html>
